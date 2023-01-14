@@ -1,8 +1,119 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
+}
+body {
+    overflow-x: hidden !important;
+}
+:root {
+    --bg-color: #008b8b25;
+    --main-color: #008b8b;
+    --dark-color: #1E1E1E;
+    --gray-color: #727272;
+    --light-color: #FFFFFF;
+}
+
+.btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--light-color);
+    background: var(--main-color);
+    border: none;
+    padding: 16px 25px;
+    border-radius: 10px;
+    border: 4px solid var(--main-color);
+    transition: 0.3s linear;
+}
+
+.btn:hover {
+    color: var(--main-color);
+    background: transparent;
+    border: 4px solid var(--main-color);
+}
+
+/* Header Section */
+.header {
+    background: var(--bg-color);
+    width: 100%;
+}
+.container{
+    max-width: 1440px;
+    padding: 0 25px;
+    margin: auto;
+}
+
+
+/* Navbar Section */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+nav .nav-logo {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.nav-logo span {
+    color: var(--main-color);
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: var(--dark-color);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.banner-content {
+    width: 850px;
+    text-align: center;
+    margin: auto;
+}
+
+.banner-title {
+    margin-top: 90px;
+    font-size: 60px;
+    color: var(--dark-color);
+}
+
+.description {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0;
+    color: var(--gray-color);
+}
+
+.banner-img img{
+    width: 100%;
+    height: auto;
+    margin: 40px 0;
+}
+/* Features Section */
+.features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5rem;
+    margin: 5rem 0;
+}
+.images-layout{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.features-content{
+    
 }

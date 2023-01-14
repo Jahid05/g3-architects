@@ -1,0 +1,60 @@
+/* Mobaile Responsive */
+@media screen and (max-width: 576px) {
+    .btn {
+        font-size: 16px;
+        padding: 12px 16px;
+    }
+    /* Nav Section */
+    nav {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    nav .nav-logo {
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .nav-menu ul {
+        gap: 1rem;
+    }
+    .nav-menu ul li a{
+        font-size: 14px;
+    }
+    
+    /* Banner Section */
+    .banner-content {
+        width: 90%;
+    }
+    .banner-title{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    .banner-description{
+        font-size: 14px;
+    }
+    
+}
+
+/* Tab Responsive */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    /* Navbar Section */
+    nav {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    nav .nav-logo {
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .nav-menu ul {
+        gap: 1rem;
+    }
+    /* Banner Section */
+    .banner-content {
+        width: 90%;
+    }
+    .banner-title{
+        font-size: 50px;
+    }
+    
+}
