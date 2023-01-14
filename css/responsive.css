@@ -6,7 +6,7 @@
     }
 
     /* Grid Style */
-    .gallery , .images-layout , .features{
+    .gallery , .images-layout , .features , .some-facts-box{
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -70,7 +70,9 @@
     .gallery , .features{
         grid-template-columns: repeat(1, 1fr);
     }
-
+    .some-facts-box{
+        grid-template-columns: repeat(2, 1fr);
+    }
     /* Navbar Section */
     nav {
         flex-direction: column;
