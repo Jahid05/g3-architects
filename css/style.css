@@ -316,7 +316,7 @@ nav .nav-logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5rem 0;
+    margin: 5rem 0;
 }
 
 .contact-us {
@@ -379,6 +379,19 @@ nav .nav-logo {
 .web{
     display: flex;
     align-items: center;
-    font-size: 18px;
+    font-size: 16px;
     color: var(--light-color);
+}
+/* Footer Section */
+footer{
+    height: 200px;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    padding: 1.5rem;
+    font-size: 20px;
+    font-weight: 400;
 }
