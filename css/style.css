@@ -18,8 +18,8 @@ img {
 }
 
 :root {
-    --bg-color: #008b8b25;
-    --main-color: #008b8b;
+    --bg-color: #7d7fff36;
+    --main-color: #FF900E;
     --dark-color: #1E1E1E;
     --gray-color: #727272;
     --light-color: #FFFFFF;
@@ -232,7 +232,7 @@ nav .nav-logo {
     grid-template-columns: repeat(4, 245px);
     justify-content: space-between;
     gap: 2rem;
-    
+
 }
 
 .some-facts-title {
@@ -294,11 +294,91 @@ nav .nav-logo {
     font-weight: 400;
     font-size: 16px;
 }
-.sponsorship{
+
+.sponsorship {
     margin-top: 50px;
     display: grid;
-    grid-template-columns: repeat(5 ,1fr);
+    gap: 5rem;
+    grid-template-columns: repeat(5, 1fr);
 }
-.brand img{
-  filter: grayscale(100%);
+
+.brand {
+    display: flex;
+    justify-content: center;
+}
+
+.brand img {
+    filter: grayscale(100%);
+}
+
+/* Contact Section */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.contact-us {
+    width: 920px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-form {
+    background: var(--dark-color) ;
+    padding: 20px 30px;
+}
+
+.contact-form input, textarea {
+    border: none;
+    border-bottom: 1px solid #f1f1e4a9;
+    background: transparent;
+    width: 100%;
+    margin: 12px 0;
+    font-size: 17px;
+    padding: 8px;
+}
+.contact-form ::placeholder{
+    color: #fff;
+}
+.form-title {
+    margin: 20px 0;
+    font-size: 40px;
+    color: var(--light-color);
+}
+.contact-address{
+    padding: 0 20px;
+    background-color: var(--main-color);
+}
+.contact-title{
+    margin: 20px 0;
+    font-size: 40px;
+    color: var(--light-color);
+}
+.contact-description{
+    font-size: 18px;
+    color: var(--gray-color);
+    margin-bottom: 10px;
+}
+.contact-address i{
+    color: var(--light-color);
+    margin: 20px;
+    width: 50px;
+    text-align: center;
+    height: 50px;
+    line-height: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid var(--light-color);
+}
+.address,
+.phone,
+.email,
+.web{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: var(--light-color);
 }

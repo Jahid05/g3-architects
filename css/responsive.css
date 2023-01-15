@@ -6,7 +6,7 @@
     }
 
     /* Grid Style */
-    .gallery , .images-layout , .features , .some-facts-box , .sponsorship{
+    .gallery , .images-layout , .features , .some-facts-box, .contact-us , .sponsorship{
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -83,10 +83,10 @@
 @media screen and (min-width: 577px) and (max-width: 992px) {
 
     /* Grid Style */
-    .gallery , .features , .sponsorship{
+    .gallery , .features, .contact-us{
         grid-template-columns: repeat(1, 1fr);
     }
-    .some-facts-box{
+    .some-facts-box , .sponsorship{
         grid-template-columns: repeat(2, 1fr);
     }
     /* Navbar Section */
