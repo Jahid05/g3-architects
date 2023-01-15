@@ -59,6 +59,10 @@
     }
 
     /* Features Section */
+    .features-box {
+        padding: 11px;
+        margin: -5rem 25%;
+    }
 
     
 }
@@ -105,5 +109,8 @@
     }
 
     /* Features Section */
-    
+    .features-box {
+        padding: 11px;
+        margin: -5rem 25%;
+    }
 }
